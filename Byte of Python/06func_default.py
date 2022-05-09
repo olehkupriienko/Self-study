@@ -3,3 +3,4 @@ def say(message, times = 1):
     
 say('Привет')
 say('Мир', 5)
+say('Test' 10)
