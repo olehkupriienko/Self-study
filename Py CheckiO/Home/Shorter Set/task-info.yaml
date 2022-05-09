@@ -1,0 +1,21 @@
+type: checkiO
+files:
+- name: mission.py
+  visible: true
+  text: "def remove_min_max(data: set, total:int) -> set:\r\n    # your code here\r\
+    \n    return None\r\n\r\nprint('Example:')\r\nprint(remove_min_max({4,5,6,7},\
+    \ 1))\r\n\r\nassert remove_min_max({8, 9, 18, 7}, 1) == {8, 9}\r\nassert remove_min_max({8,\
+    \ 9, 7}, 0) == {8, 9, 7}\r\nassert remove_min_max({8, 9, 7}, 2) == set()\r\nassert\
+    \ remove_min_max({1, 2, 7, 8, 9}, 2) == {7}\r\nassert remove_min_max(set(), 1)\
+    \ == set()\r\n\r\nprint(\"The first mission is done! Click 'Check' to earn cool\
+    \ rewards!\")"
+  learner_created: false
+status: Unchecked
+code: "def remove_min_max(data: set, total:int) -> set:\r\n    # your code here\r\n\
+  \    return None\r\n\r\nprint('Example:')\r\nprint(remove_min_max({4,5,6,7}, 1))\r\
+  \n\r\nassert remove_min_max({8, 9, 18, 7}, 1) == {8, 9}\r\nassert remove_min_max({8,\
+  \ 9, 7}, 0) == {8, 9, 7}\r\nassert remove_min_max({8, 9, 7}, 2) == set()\r\nassert\
+  \ remove_min_max({1, 2, 7, 8, 9}, 2) == {7}\r\nassert remove_min_max(set(), 1) ==\
+  \ set()\r\n\r\nprint(\"The first mission is done! Click 'Check' to earn cool rewards!\"\
+  )"
+seconds_from_change: 9223372036854775807

@@ -1,0 +1,13 @@
+type: checkiO
+files:
+- name: mission.py
+  visible: true
+  text: |-
+    def mult_two(a: int, b: int) -> int:
+        return a*b
+  learner_created: false
+status: Solved
+code: |
+  def mult_two(a: int, b: int) -> int:
+      return a * b
+seconds_from_change: 2668048
