@@ -1,3 +1,0 @@
-timur = input()
-ruslan = input()
-
